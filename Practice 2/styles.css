@@ -1,0 +1,16 @@
+.* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.headers {
+    color: aliceblue;
+    background-color: black;
+}
+.page {
+    margin: 30px;
+}
+.page-list {
+    margin: 30px 10px;
+}
