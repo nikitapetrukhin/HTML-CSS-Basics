@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  padding: 60px;
+  background-color: #E5E000; /*Пытался задавать параметры для h1 через класс header, но он отображает параметры,
+  отличные от тех, которые задаёшь напрямую через h1*/
+}
+h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 50px;
+  color: #ffffff;
+}
+.hero-block { /*Не понятно как в данном случае использовать background-position, да и background-size особо не 
+  нужен если картинка подобрана по размерам под браузер*/
+  background-image: url(../Practice-3/images/img.png);
+  height: 1080px;
+  background-size: 1440px 1080px;
+}
+.links {
+  padding: 30px 30px 30px 60px; 
+  background-color: #E5E000;
+  font-size: 24px;
+}
+.white-link { /*Не получилось задать цвет текста через див-блок*/
+  color: #ffffff;
+}
+.content {
+  padding: 60px;
+  font-size: 42px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+.gap {
+  margin-bottom: 30px;
+}
+.footer {
+  padding: 40px 40px 40px 60px;
+  background-color: #E5E000;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-text {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 42px;
+  color: #ffffff;
+}
+.white-link:link {
+  color: #ffffff;
+  text-decoration: none;
+}
+.white-link:hover {
+  color:honeydew;
+}
+.white-link:active {
+  color: deeppink;
+}
+a:link {
+  color:blue;
+  text-decoration: none;
+}
+a:visited {
+  color:mediumslateblue;
+}
+a:hover {
+  color:aquamarine;
+  text-decoration: underline;
+}
+a:active {
+  color: deeppink;
+}
+a:visited:hover {
+  color: darkorange;
+}
+a:visited:active {
+  color: deeppink;
+}
