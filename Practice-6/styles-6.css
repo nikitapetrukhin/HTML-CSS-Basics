@@ -27,6 +27,7 @@
 .container-block {
   padding: 19px;
   width: 100%;
+
 }
 .block {
   padding: 30px;
@@ -61,11 +62,11 @@ span {
 /* Макет для мобильных */
 @media only screen and (max-width: 391px) {
   .block {
-    font-size: 25px;
+    font-size: 26px;
   }
 }
 /* Макет для десктопов */
-@media only screen and (min-width: 391px) {
+@media only screen and (min-width: 800px) {
   .content {
     padding: 90px;
   }
@@ -76,5 +77,23 @@ span {
   .block {
     height: 300px;
     font-size: 40px;
+  }
+}
+/*Медиазапрос для переходного состояния от 391 до 800*/
+@media only screen and (min-width: 391px) and (max-width: 800px) {
+  .content {
+    padding: 90px 10px;
+  }
+  .container-block {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    width: 50%;
+
+  }
+  .block {
+    padding: 10px;
+    height: 220px;
+    font-size: 22px;
   }
 }
