@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="styles-8.css">
     </head>
     <body>
-        <header>
+        <header class="header-main-page">
             <nav>
                 <ul>
                     <li>ПОСЫЛКИ</li>
@@ -23,6 +23,37 @@
                 <img src="../Practice-8/images/Vector (4).png" alt="E">
                 <img src="../Practice-8/images/Subtract.png" alt="DAO">
             </div>
-        <header>
+        </header>
+        <div class="hero-block-and-form">
+            <img src="../Practice-8/images/background.jpg" alt="hero-block">
+            <form action="https://formspree.io/f/mayzgneg" method="post" class="friend-form">
+                <div class="form-row">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" value="Petr"/>
+                </div>
+                <div class="form-row">
+                    <label for="city">City</label>
+                    <input type="text" id="city" name="city" value="Nataniya"/>
+                </div>
+                <div class="form-row">
+                    <label for="present">Present</label>
+                    <input type="text" id="present" name="present" value="Kippah"/>
+                </div>
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="petr@gmail.com" class="input-email"/>
+                </div>
+                <div class="form-row">
+                    <button id="button">SEND</button>
+                </div>
+            </form>
+        </div>
+        <div class="blue-text-container">
+            <span>ВАША ПОСЫЛКА УЖЕ В ПУТИ!</span>
+        </div>
+        <footer class="footer-main-page">
+            <span>СЕКРЕТНЫЕ ПОСЫЛКИ ДЛЯ ДРУЗЕЙ</span>
+            <span>© 2023</span>
+        </footer>
     </body>
 </html>
